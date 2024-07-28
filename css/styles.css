@@ -1,0 +1,25 @@
+/* REGLAS GENERALES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* encabezado de la pagina *//*------------------------------*/
+header {
+    display: flex;
+    background-color: #255538;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    justify-content: space-between;
+
+}
+#mensaje_header {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+/*------------------------------------------------------------*/
+
