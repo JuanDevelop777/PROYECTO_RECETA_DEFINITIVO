@@ -44,3 +44,21 @@ header {
 }
 /*------------------------------------------------------------*/
 
+/* abajo de primera imagen -----------------------------------*/
+
+#abajo_imagen {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;  
+}
+
+.recetas {
+    background-color: #255538;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: white;
+}
+/*-------------------------------------------------------------*/
+
