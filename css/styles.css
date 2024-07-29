@@ -62,3 +62,31 @@ header {
 }
 /*-------------------------------------------------------------*/
 
+/* cuerpo del la pagina----------------------------------------*/
+
+.main1 {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+h2, h3, p {
+    margin: 15px;
+
+}
+
+#tabla_1 {
+    display: flex;  
+}
+
+#tab1 {
+    width: 100%;
+}
+
+.tabla1 {
+    display: flex;
+    border-bottom: 2px solid black;
+    margin: 15px ;
+    gap: 400px;
+}
