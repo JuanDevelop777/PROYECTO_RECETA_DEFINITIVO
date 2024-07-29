@@ -90,3 +90,23 @@ h2, h3, p {
     margin: 15px ;
     gap: 400px;
 }
+
+/*---------------------------------------------------------------*/
+
+/* pie de pagina ------------------------------------------------*/
+
+footer {
+    display: flex;
+    background-color: #255538;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+#pie_pagina {
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
