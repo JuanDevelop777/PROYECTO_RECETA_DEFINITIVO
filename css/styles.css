@@ -35,8 +35,13 @@ header {
 
 #imagen1 {
     background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
     margin: 20px;
-    padding: 50px;
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -76,19 +81,17 @@ h2, h3, p {
 
 }
 
-#tabla_1 {
-    display: flex;  
-}
 
 #tab1 {
     width: 100%;
 }
 
 .tabla1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border-bottom: 2px solid black;
     margin: 15px ;
-    gap: 400px;
+    border-bottom: 2px solid black;
 }
 
 /*---------------------------------------------------------------*/
