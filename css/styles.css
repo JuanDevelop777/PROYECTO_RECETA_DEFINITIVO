@@ -134,6 +134,9 @@ footer {
         font-size: 40px;
     }
     
+    table tr td:nth-of-type(2) {
+        text-align: right;
+    }
 }
 /*--------------------------------------------------------------*/
 
